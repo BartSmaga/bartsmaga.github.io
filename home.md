@@ -12,6 +12,7 @@ header:
 
 ---
 
+> You become what you give your attention to...If you yourself don't choose what thoughts and images you expose yourself to, someone else will, and their motives may not be the highest. 
 
-You become what you give your attention to...If you yourself don't choose what thoughts and images you expose yourself to, someone else will, and their motives may not be the highest. <cite>-**Epictetus**</cite>
-{: .notice--info}
+<cite>**Epictetus**</cite>
+{: .small}
