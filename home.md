@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
-title: "ble ble blu blu aaaa"
+title: "Prosoche"
 header:
 #   overlay_color: "#5e616c"
   image: /assets/images/splash.jpg
