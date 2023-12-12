@@ -1,0 +1,76 @@
+# Site settings
+title: Prosoche
+email: info@prosoche.co
+url: https://prosoche.co
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "mindfulness, meditation, mental health, buddhism, act, proactive, social, excellence"
+skills: "PROactive - SOcial - Cultivate Human Excellence"
+meta_author: s bart
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: bart
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 100000 #18bc9c #80B3FF
+  primary-rgb: "128,179,255"
+  secondary: 202A32 #FD6E8A
+  secondary-dark: 1A1D22 #A2122F
+
+# Footer settings
+footer:
+  copyright: prosoche.co
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: green West Wickham
+  - line: Greater London, UK
+
+# Credits content
+credits: 'nothing'
+
+quotes:
+  left: '"Whatever has the nature to arise will also pass away."<br><i>The Buddha</i>'
+  right: '"Happiness is available.<br>Please help yourself to it."<br><i>Nhat Hanh</i>'
+  middle: '"You become what you give your attention to...<br>If you yourself don&#39;t choose what thoughts and images you expose yourself to, someone else will, and their motives may not be the highest."<br><i>Epictetus</i>'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
