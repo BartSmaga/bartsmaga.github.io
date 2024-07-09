@@ -1,0 +1,28 @@
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="contextgrid">
+  <div class="container portfolio-flex-grid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <hr class="star-light">
+      </div>
+    </div>
+    <div class="portfolio-flex-row">
+      {% for aspect in site.aspects %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="{{ aspect.link }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/aspects/{{ aspect.img }}" class="img-responsive" alt="{{ aspect.alt }}">
+        </a>
+        <div class="intro-text">
+          <p class="small">{{ aspect.name }}</p> 
+        </div>
+    </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+

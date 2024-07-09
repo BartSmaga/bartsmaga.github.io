@@ -26,6 +26,7 @@ disqus_shortname: bart
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 100000 #18bc9c #80B3FF
+  primary-second: 151010
   primary-rgb: "128,179,255"
   secondary: 202A32 #FD6E8A
   secondary-dark: 1A1D22 #A2122F
@@ -74,3 +75,8 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+
+#for aspects: Body, Mind, Spirit
+collections:
+  - aspects
